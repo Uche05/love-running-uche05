@@ -1,12 +1,22 @@
+/*general selector added to change default browser display*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
 header{
     background-color: #2B4162;
 }
 
+/*Main Content*/
 main{
     background-color: #F5F0F6;
 
 }
 
+/*Footer*/
 footer{
     background-color: #8F754F;
 }
