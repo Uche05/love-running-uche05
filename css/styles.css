@@ -22,6 +22,9 @@ header{
     background-color: hsl(216, 92%, 72%);
 }
 
+h1{
+    font-family:'Oswald', sans-serif ;
+}
 /*Main Content*/
 main{
     background-color: #F5F0F6;
