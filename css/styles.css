@@ -25,6 +25,10 @@ header{
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
 
 header a{
@@ -55,15 +59,86 @@ menu > li{
     border-bottom: 1px solid #3a3a3a;
 }
 
+
+/*Navbar styles with dropdown toggle*/
+nav{
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: o 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/*Nav toggle */
+#nav-toggle:checked~nav{
+    display: block;
+
+}
+
+#nav-toggle{
+    display: none;
+}
+
+.nav-toggle-label{
+    font-size: 2rem;
+}
+
 /*Main Content*/
 main{
     background-color: #F5F0F6;
     /*Make main content take up any surplus space to push footer down*/
     flex: 1 0 auto;
-
+    margin-top: 47px;
 }
 
 /*Footer*/
 footer{
     background-color: #8F754F;
+}
+
+/*Media query: tablets and larger (768px and up)*/
+@media screen and (min-width:768px) {
+    /*Header*/
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width:fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu{
+        display: flex;
+    }
+
+    #menu > li{
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label{
+        display: none;
+    }
+
+    #logo{
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /*Main content*/
+    main{
+        /*Push main content down to accomodate larger header*/
+        margin-top: 75px;
+
+    }
+}
+
+/*Media query for laptops and larger*/
+@media screen and (min-width:992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
