@@ -124,6 +124,27 @@ main{
     margin: 20px auto;
 }
 
+#reasons > h2{
+    font-size: 280%;
+}
+
+#benefits{
+    margin: 20px;
+}
+
+#benefits-physical hr, #benefits-mental hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits-physical > div, #benefits-mental > div{
+    margin-bottom: 20px;
+}
+
+#benefits-physical p, #benefits-mental p{
+    padding: 0 20px;
+}
+
 /*Footer*/
 #social-networks{
     text-align: center;
