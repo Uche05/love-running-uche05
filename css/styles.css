@@ -124,25 +124,25 @@ main{
     margin: 20px auto;
 }
 
-#reasons > h2{
+#reasons h2{
+    margin-bottom: 20px;
+    text-align: center;
     font-size: 280%;
 }
 
-#benefits{
-    margin: 20px;
-}
-
-#benefits-physical hr, #benefits-mental hr{
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
-
-#benefits-physical > div, #benefits-mental > div{
+#benefits-physical > div,
+#benefits-mental > div{
+    line-height: 20px;
     margin-bottom: 20px;
 }
 
-#benefits-physical p, #benefits-mental p{
+#benefits p{
     padding: 0 20px;
+}
+
+#benefits hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /*Footer*/
