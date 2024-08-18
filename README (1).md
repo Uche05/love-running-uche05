@@ -1,6 +1,6 @@
-<h1 align="center">Code Institute Website</h1>
+<h1 align="center"> Website</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://github.......)
 
 This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
 
